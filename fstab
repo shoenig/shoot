@@ -1,0 +1,6 @@
+# part of fstab relevent to mounting an external USB hdd
+# probably better to use the UUID of the drive
+
+# mount big red hdd
+/dev/sda1	/mnt/red	ext4	defaults	0	3
+

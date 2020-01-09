@@ -1,0 +1,8 @@
+# exists as /etc/systemd/system/shoot.service
+
+[Unit]
+Description=Take pictures a lot
+
+[Service]
+ExecStart=/home/pi/still.sh
+

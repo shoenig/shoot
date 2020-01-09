@@ -1,0 +1,15 @@
+# exists as /etc/systemd/system/shoot.timer
+# enable with 
+#   sudo systemctl enable shoot.timer
+
+[Unit]
+Description=Take picture every 20 seconds
+
+[Timer]
+OnBootSec=1m
+OnUnitActiveSec=20s
+Unit=shoot.service
+
+[Install]
+WantedBy=timers.target
+
