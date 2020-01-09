@@ -6,7 +6,7 @@
 set -euo pipefail
 
 # Compute the name of this picture
-name="$(date +%Y-%m-%d_%H%M).jpg"
+name="$(date +%Y-%m-%d_%H%M%S).jpg"
 
 # Set the output directory
 output="/mnt/red/stormy"
