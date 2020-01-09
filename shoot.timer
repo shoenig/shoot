@@ -6,10 +6,10 @@
 Description=Take picture every 20 seconds
 
 [Timer]
-OnBootSec=1m
-OnUnitActiveSec=20s
+OnActiveSec=10
+OnBootSec=10
+OnUnitActiveSec=20
 Unit=shoot.service
 
 [Install]
 WantedBy=timers.target
-
